@@ -20,36 +20,35 @@ function Hero() {
         <section className="flex gap-4">
           <section className="flex flex-col gap-4">
             <img
-              className="z-10 rounded-lg xl:w-[45rem] 2xl:w-[30rem]"
+              className="z-10 rounded-lg xl:w-[25rem] 2xl:w-[30rem]"
               src="./images/image1.png"
               alt="image"
             />
             <img
-              className="z-10 rounded-lg xl:w-[45rem] 2xl:w-[30rem]"
+              className="z-10 rounded-lg xl:w-[25rem] 2xl:w-[30rem]"
               src="./images/image2.png"
               alt="image"
             />
           </section>
           <section className="flex">
             <img
-              className="z-10 rounded-lg xl:w-[45rem] 2xl:w-[29rem]"
+              className="z-10 rounded-lg xl:w-[24.5rem] 2xl:w-[29rem]"
               src="./images/image3.png"
               alt="image"
             />
           </section>
         </section>
         <img
-          className="absolute -right-2 -top-7 w-[10rem] sm:-right-[1.9rem] sm:-top-[3.5rem] sm:w-[20rem]  xl:-right-[1.4rem] xl:-top-[2.8rem] xl:w-[16rem] 2xl:-right-[2.7rem] 2xl:-top-[4.4rem] 2xl:w-[25rem]"
+          className="absolute -right-2 -top-7 w-[10rem] sm:-right-[1.9rem] sm:-top-[3.5rem] sm:w-[20rem] lg:-right-[2.2rem] lg:-top-[3.9rem] lg:w-[22rem]  xl:-right-[.6rem] xl:top-[.6rem] xl:w-[11rem] 2xl:-right-[2.7rem] 2xl:-top-[4.4rem] 2xl:w-[25rem]"
           src="./images/svg1.png"
           alt="dots"
         />
-        {/* lg:-right-[2.2rem] lg:-top-[3.9rem] lg:w-[22rem] */}
+
         <img
-          className="absolute -bottom-10 -left-1 w-[10rem] sm:-bottom-[5.2rem] sm:-left-[1.5rem] sm:w-[20rem] xl:-bottom-[3.9rem] xl:-left-[1.1rem] xl:w-[16rem] 2xl:-bottom-[6.7rem] 2xl:-left-[2.1rem] 2xl:w-[25rem]"
+          className="absolute -bottom-10 -left-1 w-[10rem] sm:-bottom-[5.2rem] sm:-left-[1.5rem] sm:w-[20rem] lg:-bottom-[5.9rem] lg:-left-[2rem] lg:w-[22rem] xl:-bottom-[.5rem] xl:-left-[.6rem] xl:w-[11rem] 2xl:-bottom-[6.7rem] 2xl:-left-[2.1rem] 2xl:w-[25rem]"
           src="./images/svg2.png"
           alt="dots"
         />
-        {/* lg:-bottom-[5.9rem] lg:-left-[2rem] lg:w-[22rem] */}
       </section>
     </section>
   );
