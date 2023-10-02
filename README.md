@@ -1,8 +1,9 @@
-# React + Vite
+## HelpMeOut
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# A chrome extension that can be used to record browser screen.
 
-Currently, two official plugins are available:
+The site was built using React and tailwindCss while the extension was built using vanilla javaScript.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The extension folder can be accessed through this link:
+
+- [HelpMeOut extension folder](https://drive.google.com/drive/folders/1u4klLaUDbKsecy_Vq1eHqFO4gXtYx7N5?usp=drive_link)
