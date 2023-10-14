@@ -3,7 +3,6 @@ import AppLayout from "./pages/AppLayout";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Error from "./pages/Error";
-// import Videos from "./pages/Videos";
 import Recording from "./pages/Recording";
 
 const router = createBrowserRouter([
@@ -19,11 +18,6 @@ const router = createBrowserRouter([
         path: "/login",
         element: <Login />,
       },
-      // {
-      //   path: "/videos",
-      //   element: <Videos />,
-      //   errorElement: <Error />,
-      // },
       {
         path: "/recording",
         element: <Recording />,

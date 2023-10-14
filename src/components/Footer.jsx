@@ -1,7 +1,7 @@
 function Footer() {
   return (
-    <footer className="bg-primary flex flex-wrap items-start justify-evenly gap-12 px-12 py-[6rem] text-white xl:gap-[12rem]">
-      <span className="flex items-center gap-2">
+    <footer className="flex flex-wrap items-start justify-evenly bg-primary px-12 py-[6rem] text-white">
+      <span className="flex items-center gap-4">
         <img
           className="h-[2.5rem] w-[2.5rem]"
           src="./images/icon-white.png"

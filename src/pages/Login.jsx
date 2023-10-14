@@ -2,8 +2,11 @@ import { FcGoogle } from "react-icons/fc";
 import { FaFacebook } from "react-icons/fa6";
 
 import Logo from "../components/Logo";
+import { useNavigate } from "react-router-dom";
 
 function Login() {
+  const navigate = useNavigate();
+
   return (
     <section className="px-2 py-4">
       <Logo />
@@ -39,13 +42,13 @@ function Login() {
 
         <span>
           <hr className="h-[1px] w-80 border-0 bg-grey/[.5]"></hr>
-          <span className="mx-auto -mt-3 block w-10 bg-background text-center text-grey">
+          <span className="mx-auto -mt-[0.8rem] block w-10 bg-background text-center text-grey">
             or
           </span>
         </span>
 
         <form
-          onSubmit={() => alert("Invalid login details!!!")}
+          onSubmit={() => navigate("/recording")}
           className="flex w-full flex-col gap-4 px-2 sm:w-96"
         >
           <label
@@ -57,7 +60,7 @@ function Login() {
           <input
             className="rounded-lg border-2 border-grey px-2 py-3"
             id="email"
-            placeholder="Enter your email address"
+            placeholder="Enter any email address"
             name="email"
             type="email"
             required
@@ -71,13 +74,13 @@ function Login() {
           <input
             id="password"
             className="rounded-lg border-2 border-grey px-2 py-3"
-            placeholder="Enter your password"
+            placeholder="Enter any password"
             name="password"
             type="password"
             required
           />
           <button className="rounded-lg bg-primary px-5 py-4 text-white">
-            Sign Up
+            Sign in
           </button>
           <span className="text-center text-[#000]">
             {`Don't have an account?`}{" "}

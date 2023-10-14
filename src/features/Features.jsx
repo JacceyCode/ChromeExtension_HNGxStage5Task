@@ -1,7 +1,7 @@
 function Features() {
   return (
     <section
-      id="eatures"
+      id="features"
       className="my-12 flex flex-col gap-[4rem] bg-white py-[5rem]"
     >
       <section className="flex flex-col items-center justify-center">
@@ -61,9 +61,9 @@ function Features() {
             </section>
           </section>
         </section>
-        <section>
+        {/* <section>
           <img src="./images/image4.png" alt="screen pic" />
-        </section>
+        </section> */}
       </section>
     </section>
   );

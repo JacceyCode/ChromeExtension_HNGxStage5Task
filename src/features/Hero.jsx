@@ -16,7 +16,7 @@ function Hero() {
           Install HelpMeOut <HiArrowRight />{" "}
         </Link>
       </section>
-      <section className="relative flex items-center justify-center px-4">
+      {/* <section className="relative flex items-center justify-center px-4">
         <section className="flex gap-4">
           <section className="flex flex-col gap-4">
             <img
@@ -49,7 +49,7 @@ function Hero() {
           src="./images/svg2.png"
           alt="dots"
         />
-      </section>
+      </section> */}
     </section>
   );
 }
