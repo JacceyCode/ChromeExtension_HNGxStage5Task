@@ -1,13 +1,14 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Logo from "../components/Logo";
 
 function Header() {
   return (
-    <header className="flex flex-col items-center justify-between gap-4 border-b-2 border-solid border-background bg-white px-[2rem] py-[1.5rem] md:flex-row lg:px-[7rem] 2xl:px-[9rem]">
+    <header className="laptop:flex-row laptop:px-[6.25rem] laptop:justify-between flex w-full flex-col items-center justify-center gap-2 border-b-2 border-solid border-background bg-white px-4 py-[0.75rem]">
       <Logo />
-      <nav className="flex items-center gap-[2.4rem] font-worksans text-base font-medium text-[#000]">
+      <nav className="text-black laptop:gap-[2.4rem] flex items-center gap-3 font-worksans text-base font-medium">
         <a href="#features">Features</a>
         <a href="#howitworks">How it Works</a>
+        <NavLink to="/recording">See Recording</NavLink>
       </nav>
       <Link
         to="/login"

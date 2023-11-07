@@ -9,15 +9,20 @@ export default {
       secondary: "#141414",
       tertiary: "#1B233D",
       white: "#FFF",
+      black: "#000",
     },
-    extend: {
-      fontFamily: {
-        inter: ["Inter", "sans-serif"],
-        worksans: ["Work Sans", "sans-serif"],
-        sora: ["Sora", "sans-serif"],
-        sen: ["Sen", "sans-serif"],
-      },
+    screens: {
+      tablet: "640px",
+      laptop: "1024px",
+      desktop: "1440px",
     },
+    fontFamily: {
+      inter: ["Inter", "sans-serif"],
+      worksans: ["Work Sans", "sans-serif"],
+      sora: ["Sora", "sans-serif"],
+      sen: ["Sen", "sans-serif"],
+    },
+    extend: {},
   },
   plugins: [],
 };

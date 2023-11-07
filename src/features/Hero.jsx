@@ -3,18 +3,48 @@ import { HiArrowRight } from "react-icons/hi2";
 
 function Hero() {
   return (
-    <section className="flex flex-wrap justify-center gap-20 bg-white px-4 py-16 sm:gap-24 sm:py-32 lg:px-32 xl:flex-nowrap">
+    <section className="laptop:flex-nowrap laptop:px-[6.25rem] laptop:py-32 laptop:justify-start flex w-full flex-wrap items-center justify-center gap-8 bg-white px-4 py-16">
       <section className="flex flex-col items-start justify-center">
-        <h1 className="mb-[1.25rem] font-sora text-[2.4rem] font-bold leading-[100%] text-secondary sm:text-[4rem]">
+        <h1 className="tablet:text-[3rem] mb-[1.25rem] font-sora text-[2.4rem] font-bold leading-[100%] text-secondary">
           Show Them <br /> Don’t Just Tell
         </h1>
-        <p className="mb-12 font-inter text-lg font-normal text-[#000]/[.75] sm:w-[34.25rem]">
+        <p className="text-black/75 mb-12 font-inter text-lg font-normal">
           Help your friends and loved ones by creating and sending videos on how
           to get things done on a website.
         </p>
         <Link className="flex w-64 items-center justify-start gap-4 rounded-md bg-primary p-6 font-worksans text-lg font-medium text-white">
           Install HelpMeOut <HiArrowRight />{" "}
         </Link>
+      </section>
+
+      <section className="bg-black relative grid w-full grid-cols-2 grid-rows-2 items-stretch justify-items-stretch gap-4">
+        <img
+          className="absolute -right-12 -top-14 z-20"
+          src="./images/svg1.png"
+          alt="dots"
+        />
+
+        <img
+          className="absolute -bottom-24 -left-10 z-20"
+          src="./images/svg2.png"
+          alt="dots"
+        />
+
+        <img
+          className="z-10 rounded-lg"
+          src="./images/image1.png"
+          alt="image"
+        />
+        <img
+          className="z-10 rounded-lg"
+          src="./images/image2.png"
+          alt="image"
+        />
+        <img
+          className="z-10 col-start-2 row-span-2 row-start-1 rounded-lg"
+          src="./images/image3.png"
+          alt="image"
+        />
       </section>
       {/* <section className="relative flex items-center justify-center px-4">
         <section className="flex gap-4">
