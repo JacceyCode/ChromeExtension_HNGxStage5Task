@@ -2,7 +2,7 @@ function Features() {
   return (
     <section
       id="features"
-      className="my-12 flex flex-col gap-[4rem] bg-white py-[5rem]"
+      className="bg-black my-12 flex flex-col gap-[4rem] py-[5rem]"
     >
       <section className="flex flex-col items-center justify-center">
         <h2 className="font-sora text-[2.5rem] font-bold text-secondary">
