@@ -3,7 +3,7 @@ function Features() {
     <section className="bg-white">
       <section
         id="features"
-        className="laptop:space-y-[4rem] m-auto my-12 flex max-w-[90rem] flex-col space-y-[2rem] px-4 py-[5rem]"
+        className="laptop:space-y-[4rem] laptop:px-[6.25rem] m-auto my-12 flex max-w-[90rem] flex-col space-y-[2rem] px-4 py-[5rem]"
       >
         <section className="flex flex-col items-center justify-center">
           <h2 className="laptop:text-[2.8rem] font-sora text-[1.8rem] font-bold text-secondary">
@@ -15,7 +15,7 @@ function Features() {
         </section>
 
         <section className="laptop:px-12 mx-auto flex flex-wrap items-center justify-center gap-[3.5rem] px-2">
-          <section className="laptop:flex-1 desktop:space-y-12 flex flex-col space-y-5">
+          <section className="tablet:flex-1 desktop:space-y-12 flex flex-col space-y-5">
             {/* 1st */}
             <section className="flex items-start justify-start gap-4">
               <span className="flex items-center justify-center rounded-full bg-tertiary p-2">
@@ -65,7 +65,7 @@ function Features() {
             </section>
           </section>
 
-          <section className="laptop:flex-1">
+          <section className="tablet:flex-1">
             <img src="./images/image4.png" alt="screen pic" />
           </section>
         </section>

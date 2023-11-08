@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer className="bg-primary">
-      <section className="laptop:px-20 tablet:flex-row laptop:space-x-40 tablet:space-x-20 tablet:px-12 tablet:items-start m-auto flex max-w-[90rem] flex-col items-center px-4 py-[6rem] text-white">
+      <section className="laptop:px-[6.25rem] tablet:flex-row laptop:space-x-40 tablet:space-x-20 tablet:px-12 tablet:items-start m-auto flex max-w-[90rem] flex-col items-center px-4 py-[6rem] text-white">
         {/* //////////////////////////// */}
         <span className="mb-12 flex items-center justify-center space-x-4">
           <img

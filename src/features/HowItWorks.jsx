@@ -3,7 +3,7 @@ function HowItWorks() {
     <section className="bg-white">
       <section
         id="howitworks"
-        className="laptop:space-y-[3rem] m-auto flex max-w-[90rem] flex-col items-center space-y-8 py-[5rem]"
+        className="laptop:space-y-[3rem] laptop:px-[6.25rem] m-auto flex max-w-[90rem] flex-col items-center space-y-8 px-4 py-[5rem]"
       >
         <h2 className="laptop:text-[2.5rem] font-sora text-2xl font-bold text-secondary">
           How it works
