@@ -1,17 +1,21 @@
 import Header from "../features/Header";
-import SaveVideo from "../features/SaveVideo";
-import VideoStream from "../features/VideoStream";
 import VideoUrl from "../features/VideoUrl";
+import VideoStream from "../features/VideoStream";
+import SaveVideo from "../features/SaveVideo";
+import Footer from "../components/Footer";
 
 function Recording() {
   return (
     <>
       <Header />
-      <section className="flex flex-wrap items-start justify-center bg-white sm:px-8 sm:pt-4 lg:px-28 2xl:px-36 2xl:pt-10">
-        <VideoUrl />
-        <VideoStream />
+      <section className="bg-white">
+        <section className="tablet:flex-row laptop:px-[6.25rem] laptop:space-y-0 m-auto flex max-w-[90rem] flex-col items-start justify-center space-y-6 px-4 py-8">
+          <VideoUrl />
+          <VideoStream />
+        </section>
+        <SaveVideo />
       </section>
-      <SaveVideo />
+      <Footer />
     </>
   );
 }
