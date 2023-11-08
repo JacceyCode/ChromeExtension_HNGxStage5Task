@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 
 function AppLayout() {
   return (
-    <main className="m-auto max-w-[90rem] bg-background">
+    <main className="bg-background">
       <Outlet />
       {/* <Footer /> */}
     </main>
